@@ -13,10 +13,7 @@ import CartPage from "./pages/cart/CartPage";
 import CartShow from "./pages/cart/CartShow";
 import PageNoteFound from "./components/PageNoteFound";
 
-//import UploadImage from "./features/product/UploadImage";
 
-// import NavBar from "./features/Components/NavBar";
-// <NavBar />;
 
 function App() {
   return (
@@ -42,3 +39,9 @@ function App() {
 }
 
 export default App;
+
+
+//import UploadImage from "./features/product/UploadImage";
+
+// import NavBar from "./features/Components/NavBar";
+// <NavBar />;
