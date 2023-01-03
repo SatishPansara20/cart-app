@@ -37,9 +37,3 @@ function App() {
 }
 
 export default App;
-
-
-//import UploadImage from "./features/product/UploadImage";
-
-// import NavBar from "./features/Components/NavBar";
-// <NavBar />;
