@@ -67,8 +67,6 @@ const NavigationPages = () => {
   };
 
   const handleNext = () => {
-
-
     if (page <= 5) {
       dispatch(incrementCurrnetPage());
     }

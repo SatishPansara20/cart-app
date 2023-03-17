@@ -13,8 +13,6 @@ import CartPage from "./pages/cart/CartPage";
 import CartShow from "./pages/cart/CartShow";
 import PageNoteFound from "./components/PageNoteFound";
 
-
-
 function App() {
   return (
     <React.Fragment>
@@ -31,7 +29,6 @@ function App() {
           <Route path="/editinfo/:id" element={<EditProductInfo />} />
         </Route>
       </Routes>
-
     </React.Fragment>
   );
 }
