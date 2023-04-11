@@ -1,4 +1,8 @@
 {
-    "register":[],
-    "products":[]
+  "register": [],
+  "products": [
+    {
+      "id": "123"
+    }
+  ]
 }

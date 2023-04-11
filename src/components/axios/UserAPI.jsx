@@ -4,7 +4,6 @@ export const userURL = axios.create({
   baseURL: "http://202.131.117.92:7152/api",
 });
 
-
 // NOTE: Add a request interceptor
 export const postRequestInterceptor = () => {
   userURL.interceptors.request.use(

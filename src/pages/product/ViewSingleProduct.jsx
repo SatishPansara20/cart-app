@@ -184,7 +184,7 @@ const ViewProduct = () => {
             className="p-2 rounded-md
            bg-gray-300 mt-4 flex justify-between items-center"
           >
-            <div className=" m-2 flex justify-start content-center w-1/2 ">
+            <div className=" m-2 flex justify-start content-center  ">
               {/* //NOTE: Decrement Button */}
               <button
                 disabled={incrementAmount <= 0}
@@ -206,7 +206,7 @@ const ViewProduct = () => {
               </button>
 
               <input
-                className="mx-2 border flex-wrap content-start w-8"
+                className="mx-2 w-10 h-9 border flex grow-1 flex-wrap"
                 type="text"
                 value={incrementAmount}
                 onChange={handleQChange}

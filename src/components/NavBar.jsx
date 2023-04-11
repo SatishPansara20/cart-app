@@ -36,15 +36,16 @@ const NavBar = () => {
                 className="h-6 mr-1 sm:h-9 rounded-full"
                 alt="Flowbite Logo"
               />
-              <span className="self-center uppercase text-xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center uppercase sm:text-sm md:text-xl  text-center  font-semibold  dark:text-white">
                 purchase me today
               </span>
             </Link>
           </div>
+
           <div className="grow self-center text-center first-letter">
             <button>
               <Link to="/addnewproduct">
-                <span className="self-end uppercase text-xl font-semibold whitespace-nowrap dark:text-white">
+                <span className="self-end uppercase sm:text-sm md:text-xl  text-center text-ellipsis font-semibold  dark:text-white">
                   ADD NEW PRDODUCT
                 </span>
               </Link>
